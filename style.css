@@ -17,6 +17,8 @@ body{
 
 }
 
+/*Home Page*/
+
 .Top{
    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.35),rgba(255, 0, 0, 0.35)),url("hanako.jpeg");
     background-size: cover;
@@ -224,7 +226,6 @@ body{
     max-height: 100%;
     width:50%;
     opacity: 0.65;
-/*    background-color: rgb(167,33,22);*/
 }
 
 
@@ -442,11 +443,19 @@ body{
 
 }
 
+.navLink:hover{
+    background-color:rgba(255, 0, 0, 0.80) ;
+    padding: 5px;
+    color: black;
+}
+
 #nav-toilet{
     max-height: 100%;
     object-fit: cover;
     width: 30%;
 }
+
+/*Character Page */
 
 .character-top{
     display: flex;
@@ -539,528 +548,555 @@ body{
 
 }
 
-.mokke-header, 
-.Nene-header, 
-.Hanako-header,
-.Kou-header,
-.Sousuke-header,
-.aoi-header,
-.teru-header,
-.akane-header{
-    display: flex;
-    justify-content: center;
-    font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 60px;
-    padding-top: 7%;
-    text-decoration: underline;
-
+.container6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -100vh;
 }
 
-.mokke-quote{
-    position: absolute;
-    right: 7%;
-    bottom: -70%;
+.mokke-header {
     display: flex;
-    flex-direction: column;
-    line-height: 10px;
-    font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 30px;
-   
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-decoration: underline;
 }
 
-.mokke{
-  position: relative;
-  object-fit: contain;
-    display: flex;
-    padding-left: 100px; 
-    align-items: flex-end; 
-    max-height: 100%;
-    width: 70%;
+.mokke-quote {
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: -750px;
+  margin-left: 230px;
+  text-align: center;
 }
 
-#mokke-img{
-    max-height: 100%;
-    width: 45%;
+.mokke {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-left: -70%; 
+  box-sizing: border-box; 
 }
 
-
-.mokke-description{
-    box-shadow: 20px 20px 50px 15px darkred;
-    color: white;
-    line-break: strict;
-    position: absolute;
-    bottom: -145%;
-    left: 50%;
-    right: 17%;
-    padding-right: 20px;
+#mokke-img {
     display: flex;
-    text-align: center;
-    flex-direction: column;
-    line-height: 34px;
+  max-width: 100%;
+  height: auto;
+}
+
+.mokke-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 70%;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  margin-top: 20px;
+  flex-direction: column;
+  line-height: 34px;
     word-spacing: 6px;
     font-size: 27px;
     font-family: "Archivo Narrow", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:rgba(0, 0, 0, 0.7) ;
-    border-radius:17px;
-    max-height: 100%;
-    opacity: 0.3;
-    max-width: 50%;
-    z-index: 999;
-    transition: opacity 0.5s ease;
-
+    margin-right: 290px;
+    margin-left: 500px;
 }
 
-.mokke-description:hover{
-    opacity: 1;
+.mokke-description:hover {
+  opacity: 1;
+}
+
+
+.container7{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -150vh;
+}
+
+.Nene-header{
+  display: flex;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-decoration: underline;
 }
 
 .Nene-quote{
-    position: absolute;
-    left: 5%;
-    bottom: -225%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    line-height: 10px;
     font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 30px;
-
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: -1200px;
+  margin-right: 615px;
+  margin-left: 20px;
+  text-align: center;
 }
 
-.Nene{
-    position: relative;
-    object-fit: contain;
-    left: 450px; 
-    max-height: 100%;
-    width: 70%;
+.Nene {
+  display: flex;
+  justify-content: flex-start;
+   max-width: 100%;
+  margin-right: -710px;
+  box-sizing: border-box; 
+}
+
+.nene-img{
     display: flex;
-    justify-content: flex-end;
+    max-width: 100%;
+  height: auto;
 }
 
-#nene-img{
-    max-height: 100%;
-    width: 60%;
-/*    right: 0;*/
-}
-
-.Nene-description{
-    box-shadow: 20px 20px 50px 15px darkred;
-    color: white;
-    line-break: strict;
-    position: absolute;
-    bottom: -325%;
-    right: 50%;
-    left: 17%;
-    padding-right: 20px;
-    display: flex;
-    text-align: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    line-height: 27px;
+.Nene-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 70%;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  margin-top: 20px;
+  flex-direction: column;
+  line-height: 34px;
     word-spacing: 6px;
-    font-size: 24px;
+    font-size: 27px;
     font-family: "Archivo Narrow", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:rgba(0, 0, 0, 0.7) ;
-    border-radius:17px;
-    max-height: 100%;
-    opacity: 0.3;
-    max-width: 700%;
-    z-index: 999;
-    transition: opacity 0.5s ease;
-
+    margin-right: 790px;
+    margin-left: 70px;
 }
 
-.Nene-description:hover{
-    opacity: 1;
+.Nene-description:hover {
+  opacity: 1;
 }
 
-.Hanako-quote{
-    position: absolute;
-    right: 13%;
-    bottom: -407%;
+.container8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -100vh;
+}
+
+.Hanako-header {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    line-height: 10px;
-    font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 30px;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-decoration: underline;
 }
 
-#hanako{
-    max-height: 100%;
-    width:39%;
-    top: -30%;
-    padding-left: 8%;
-
+.Hanako-quote {
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: -130px;
+  margin-left: 250px;
+  text-align: center;
 }
 
-.hanako-description{
-    box-shadow: 20px 20px 50px 15px darkred;
-    color: white;
-    line-break: strict;
-    position: absolute;
-    bottom: -507%;
-    left: 50%;
-    right: 17%;
-    padding-right: 20px;
+.hanako-img {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-left: -60%; 
+  margin-top: -160px;
+  box-sizing: border-box; 
+}
+
+#hanako {
     display: flex;
-    text-align: center;
-    justify-content: flex-end;
-    flex-direction: column;
-    line-height: 27px;
+  max-width: 100%;
+  height: auto;
+}
+
+.hanako-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 70%;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  margin-top: -1150px;
+  flex-direction: column;
+  line-height: 34px;
     word-spacing: 6px;
-    font-size: 24px;
+    font-size: 27px;
     font-family: "Archivo Narrow", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:rgba(0, 0, 0, 0.7) ;
-    border-radius:17px;
-    max-height: 100%;
-    opacity: 0.3;
-    max-width: 50%;
-    z-index: 999;
-    transition: opacity 0.5s ease;
+    margin-right: 120px;
+    margin-left: 700px;
 }
 
-.hanako-description:hover{
-    opacity: 1;
+.hanako-description:hover {
+  opacity: 1;
+}
+
+.container9{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -250vh;
 }
 
 .Kou-header{
-    color:black ;
+  display: flex;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-decoration: underline;
+  margin-top:400px;
 }
 
 .kou-quote{
-    color: black;
-    position: absolute;
-    left: 5%;
-    bottom: -600%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    line-height: 10px;
     font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 30px;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: -100px;
+  margin-right: 615px;
+  margin-left: 20px;
+  text-align: center;
 }
 
-.kou-img{
-    position: relative;
-    object-fit: contain;
-    left: 350px; 
-    max-height: 100%;
-    width: 70%;
-    display: flex;
-    justify-content: flex-end;
+.kou-img {
+  display: flex;
+  justify-content: flex-start;
+   max-width: 100%;
+   margin-top: -190px;
+  margin-right: -710px;
+  box-sizing: border-box; 
 }
 
 #kou{
-   max-height: 100%;
-    width: 60%;    
+    display: flex;
+    max-width: 100%;
+  height: auto;
 }
 
-.kou-description{
-    box-shadow: 20px 20px 50px 15px darkred;
-    color: white;
-    line-break: strict;
-    position: absolute;
-    bottom: -680%;
-    right: 50%;
-    left: 17%;
-    padding-right: 20px;
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    flex-direction: column;
-    line-height: 27px;
+.kou-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 70%;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  margin-top: -1000px;
+  flex-direction: column;
+  line-height: 34px;
     word-spacing: 6px;
-    font-size: 24px;
+    font-size: 27px;
     font-family: "Archivo Narrow", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:rgba(0, 0, 0, 0.7) ;
-    border-radius:17px;
-    max-height: 100%;
-    opacity: 0.3;
-    max-width: 700%;
-    z-index: 999;
-    transition: opacity 0.5s ease;
+    margin-right: 790px;
+    margin-left: 70px;
 }
 
-.kou-description:hover{
-    opacity: 1;
+.kou-description:hover {
+  opacity: 1;
 }
 
-.Sousuke-header{
-    color: black;
+.container10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -100vh;
 }
 
-.sou-quote{
-    color: black;
-    position: absolute;
-    right: 9%;
-    bottom: -793%;
+.Sousuke-header {
+    margin-top: 370px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    line-height: 10px;
-    font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 30px;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-decoration: underline;
 }
 
-#sou{
-    max-height: 100%;
-    width:39%;
-    top: -30%;
-    padding-left: 8%; 
+.sou-quote {
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: -130px;
+  margin-left: 250px;
+  text-align: center;
 }
 
-.sou-description{
-     box-shadow: 20px 20px 50px 15px darkred;
-    color: white;
-    line-break: strict;
-    position: absolute;
-    bottom: -893%;
-    left: 50%;
-    right: 17%;
-    padding-right: 20px;
+.sou-img {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-left: -60%; 
+  margin-top: -160px;
+  box-sizing: border-box; 
+}
+
+#sou {
     display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    flex-direction: column;
-    line-height: 25px;
+  max-width: 100%;
+  height: auto;
+}
+
+.sou-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 70%;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  margin-top: -1150px;
+  flex-direction: column;
+  line-height: 34px;
     word-spacing: 6px;
-    font-size: 22px;
+    font-size: 27px;
     font-family: "Archivo Narrow", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:rgba(0, 0, 0, 0.7) ;
-    border-radius:17px;
-    max-height: 100%;
-    opacity: 0.3;
-    max-width: 50%;
-    z-index: 999;
-    transition: opacity 0.5s ease;
+    margin-right: 120px;
+    margin-left: 700px;
 }
 
-.sou-description:hover{
-    opacity: 1;
+.sou-description:hover {
+  opacity: 1;
+}
+
+.container11{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .aoi-header{
-    color: #FFFAF0;
+    color: white;
+  display: flex;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-decoration: underline;
+  margin-top:1150px;
 }
 
 .aoi-quote{
-    color: #FFFAF0;
-    position: absolute;
-    left: 5%;
-    bottom: -985%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    line-height: 10px;
+    color: white;
     font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 30px;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: -100px;
+  margin-right: 615px;
+  margin-left: 20px;
+  text-align: center;
 }
 
-.aoi-img{
- position: relative;
-    object-fit: contain;
-    left: 350px; 
-    max-height: 100%;
-    width: 70%;   
-    display: flex;
-    justify-content: flex-end;
+.aoi-img {
+  display: flex;
+  justify-content: flex-start;
+   max-width: 100%;
+   margin-top: -190px;
+  margin-right: -710px;
+  box-sizing: border-box; 
 }
 
 #aoi{
-  max-height: 100%;
-    width: 60%;    
+    display: flex;
+    max-width: 100%;
+  height: auto;
 }
 
-.aoi-description{
-    box-shadow: 20px 20px 50px 15px darkred;
-    color: white;
-    line-break: strict;
-    position: absolute;
-    bottom: -1085%;
-    right: 50%;
-    left: 17%;
-    padding-right: 20px;
-    display: flex;
-    text-align: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    line-height: 24px;
+.aoi-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 70%;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  margin-top: -1000px;
+  flex-direction: column;
+  line-height: 34px;
     word-spacing: 6px;
-    font-size: 22px;
+    font-size: 27px;
     font-family: "Archivo Narrow", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:rgba(0, 0, 0, 0.7) ;
-    border-radius:17px;
-    max-height: 100%;
-    opacity: 0.3;
-    max-width: 700%;
-    z-index: 999;
-    transition: opacity 0.5s ease;
-
+    margin-right: 790px;
+    margin-left: 70px;
 }
 
-.aoi-description:hover{
-    opacity: 1;
+.aoi-description:hover {
+  opacity: 1;
 }
 
-.teru-header{
-    color: #F5F5F5;
+.container12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -100vh;
 }
 
-.teru-quote{
-    color: #F5F5F5;
-    position: absolute;
-    right: 15%;
-    bottom: -1168%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    line-height: 10px;
-    font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 30px; 
-}
-
-#teru{
-    max-height: 100%;
-    width:39%;
-    top: -30%;
-    padding-left: 3%; 
-}
-
-.teru-description{
-   box-shadow: 20px 20px 50px 15px darkred;
+.teru-header {
     color: white;
-    line-break: strict;
-    position: absolute;
-    bottom: -1260%;
-    left: 50%;
-    right: 17%;
-    padding-right: 20px;
+    margin-top: 970px;
     display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    flex-direction: column;
-    line-height: 25px;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+.teru-quote {
+    color: white;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: -130px;
+  margin-left: 250px;
+  text-align: center;
+}
+
+.teru-img {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-left: -60%; 
+  margin-top: -160px;
+  box-sizing: border-box; 
+}
+
+#teru {
+    display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
+.teru-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 70%;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  margin-top: -1150px;
+  flex-direction: column;
+  line-height: 34px;
     word-spacing: 6px;
-    font-size: 22px;
+    font-size: 27px;
     font-family: "Archivo Narrow", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:rgba(0, 0, 0, 0.7) ;
-    border-radius:17px;
-    max-height: 100%;
-    opacity: 0.3;
-    max-width: 50%;
-    z-index: 999;
-    transition: opacity 0.5s ease; 
+    margin-right: 120px;
+    margin-left: 700px;
 }
 
-.teru-description:hover{
-    opacity: 1;
+.teru-description:hover {
+  opacity: 1;
+}
+
+.container13{
+    margin-bottom: 1200px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .akane-header{
-    color:#FEFEFA ;
+    color: white;
+  display: flex;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-decoration: underline;
+  margin-top:1150px;
 }
 
 .akane-quote{
-    color:#FEFEFA;
-     position: absolute;
-    left: 5%;
-    bottom: -1395%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    line-height: 10px;
+    color: white;
     font-family: "Londrina Solid", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 30px;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: -100px;
+  margin-right: 615px;
+  margin-left: 20px;
+  text-align: center;
 }
 
-.akane-img{
-    position: relative;
-    object-fit: contain;
-    left: 300px; 
-    max-height: 100%;
-    width: 70%;  
-    display: flex;
-    justify-content: flex-end;
+.akane-img {
+  display: flex;
+  justify-content: flex-start;
+   max-width: 100%;
+   margin-top: -190px;
+  margin-right: -710px;
+  box-sizing: border-box; 
 }
 
 #akane{
-    max-height: 100%;
-    width: 60%;  
-    margin-bottom: 150px;
+    display: flex;
+    max-width: 100%;
+  height: auto;
 }
 
-.akane-description{
-    box-shadow: 20px 20px 50px 15px darkred;
-    color: white;
-    line-break: strict;
-    position: absolute;
-    bottom: -1480%;
-    right: 50%;
-    left: 17%;
-    padding-right: 20px;
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    flex-direction: column;
-    line-height: 24px;
+.akane-description {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 70%;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  margin-top: -1000px;
+  flex-direction: column;
+  line-height: 34px;
     word-spacing: 6px;
-    font-size: 22px;
+    font-size: 27px;
     font-family: "Archivo Narrow", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    background-color:rgba(0, 0, 0, 0.7) ;
-    border-radius:17px;
-    max-height: 100%;
-    opacity: 0.3;
-    max-width: 700%;
-    z-index: 999;
-    transition: opacity 0.5s ease;
+    margin-right: 790px;
+    margin-left: 70px;
 }
 
-.akane-description:hover{
-    opacity: 1;
+.akane-description:hover {
+  opacity: 1;
 }
+
+
+
+
+
+
+/*World Page*/
 
 .world-top{
     display: flex;
@@ -1176,15 +1212,15 @@ body{
     box-shadow: 20px 20px 50px 15px darkred;
     color: white;
     line-break: strict;
-    position: absolute;
-    padding: 10px;
-    bottom: -360%;
+    position:fixed, absolute;
+    padding: 13px;
     display: flex;
-    right: 10%;
-    left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
     justify-content: center;
     align-items: center;
-    line-height: 24px;
+    line-height: 27px;
     word-spacing: 6px;
     font-size: 22px;
     font-family: "Archivo Narrow", sans-serif;
@@ -1269,15 +1305,15 @@ body{
     box-shadow: 20px 20px 50px 15px darkred;
     color: white;
     line-break: strict;
-    position: absolute;
-    padding: 10px;
-    bottom: -668%;
+    position:fixed, absolute;
+    padding: 13px;
     display: flex;
-    right: 10%;
-    left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
     justify-content: center;
     align-items: center;
-    line-height: 24px;
+    line-height: 27px;
     word-spacing: 6px;
     font-size: 22px;
     font-family: "Archivo Narrow", sans-serif;
@@ -1361,15 +1397,15 @@ body{
     box-shadow: 20px 20px 50px 15px darkred;
     color: white;
     line-break: strict;
-    position: absolute;
-    padding: 10px;
-    bottom: -1058%;
+    position:fixed, absolute;
+    padding: 13px;
     display: flex;
-    right: 10%;
-    left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
     justify-content: center;
     align-items: center;
-    line-height: 24px;
+    line-height: 27px;
     word-spacing: 6px;
     font-size: 22px;
     font-family: "Archivo Narrow", sans-serif;
@@ -1453,15 +1489,15 @@ body{
     box-shadow: 20px 20px 50px 15px darkred;
     color: white;
     line-break: strict;
-    position: absolute;
-    padding: 10px;
-    bottom: -1410%;
+    position: fixed, absolute;
+    padding: 13px;
     display: flex;
-    right: 10%;
-    left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
     justify-content: center;
     align-items: center;
-    line-height: 24px;
+    line-height: 27px;
     word-spacing: 6px;
     font-size: 22px;
     font-family: "Archivo Narrow", sans-serif;
@@ -1549,15 +1585,15 @@ body{
     box-shadow: 20px 20px 50px 15px darkred;
     color: white;
     line-break: strict;
-    position: absolute;
-    padding: 10px;
-    bottom: -1838%;
+    position:fixed, absolute;
+    padding: 13px; 
     display: flex;
-    right: 10%;
-    left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
     justify-content: center;
     align-items: center;
-    line-height: 24px;
+    line-height: 27px;
     word-spacing: 6px;
     font-size: 22px;
     font-family: "Archivo Narrow", sans-serif;
@@ -1643,15 +1679,15 @@ body{
     box-shadow: 20px 20px 50px 15px darkred;
     color: white;
     line-break: strict;
-    position: absolute;
-    padding: 10px;
-    bottom: -2168%;
+    position: fixed, absolute;
+    padding: 13px;
     display: flex;
-    right: 10%;
-    left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
     justify-content: center;
     align-items: center;
-    line-height: 24px;
+    line-height: 27px;
     word-spacing: 6px;
     font-size: 22px;
     font-family: "Archivo Narrow", sans-serif;
@@ -1725,7 +1761,6 @@ body{
     align-items: center;
     padding-top:0.3px;
     max-height: 100%;
-    margin-bottom: 450px;
 }
 
 #myst7{
@@ -1738,15 +1773,16 @@ body{
     box-shadow: 20px 20px 50px 15px darkred;
     color: white;
     line-break: strict;
-    position: absolute;
-    padding: 10px;
-    bottom: -2500%;
+    position: fixed, absolute;
+    padding: 13px;
     display: flex;
-    right: 10%;
-    left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
     justify-content: center;
     align-items: center;
-    line-height: 24px;
+    line-height: 27px;
     word-spacing: 6px;
     font-size: 22px;
     font-family: "Archivo Narrow", sans-serif;
@@ -1760,6 +1796,7 @@ body{
     width: auto;
     z-index: 999;
     transition: opacity 0.5s ease; 
+
 }
 
 .myst7-description:hover{
