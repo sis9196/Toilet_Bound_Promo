@@ -1,6 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap')*/
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Londrina+Solid:wght@900&display=swap')
 
+
 *{
 	margin:0;
 	padding:0;
@@ -2261,6 +2262,502 @@ body{
 .gal_fig10:hover .gal_cap10{
     opacity: 1;
 }
+
+
+@media screen and (max-width: 600px) { 
+  
+/*Home page*/
+  .Top{
+    height: 600px;
+  }   
+
+  .logo {
+    padding-top: 5%;
+  }
+
+#dark-school{
+    width: 95%;
+}
+
+#seven{
+    margin-left: -90px;
+    width: 450px;
+}
+ 
+.hook-text{
+    margin-top: 750px;
+    font-size: 15px;
+
+}
+
+.hook-text2{
+    margin-top: 1500px;
+    font-size: 15px;
+}
+
+.hook-text3{
+    margin-top: 2700px;
+    font-size: 15px;
+}
+
+.hook-text4{
+    margin-top: 2150px;
+    font-size: 15px;
+}
+
+  .hanako-text{
+    margin-left: 135px;
+    font-size: 3vw;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+
+  .navsize{
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navLink{
+    font-size: 23px;
+    word-spacing: 10px;
+    padding: 0 5px;
+  }
+
+  #nav-toilet{
+    width: 130px;
+  }
+
+
+/* Character Page */
+
+.character-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-word{
+    font-size: 45px;
+}
+
+.top-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+  
+  .container7,
+  .container8,
+  .container9,
+  .container10,
+  .container11,
+  .container12,
+  .container13 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mokke-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: center;}
+
+
+.mokke-quote{
+    font-size: 10px;
+    max-width: 100%;
+    
+}
+
+.mokke-quote h1{
+    font-size: 30px;
+    margin-top: -140px; 
+    margin-right: 40px;
+
+}
+
+.mokke{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35%;
+    margin-top: -50px;   
+}
+
+#mokke-img{
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.mokke-description{
+    font-size: 20px;
+    margin-top: 800px;
+
+  }
+
+.Nene-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center; 
+}
+
+
+.Nene-quote h1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 250px;
+}
+
+.Nene{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;  
+}
+
+#nene-img{
+    width: 70%;
+    margin-top: 20px;
+    margin-right: 700px;
+}
+
+.Nene-description{
+    margin-top: 800px;
+    font-size: 20px;
+}
+
+.Hanako-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center; 
+}
+
+.Hanako-quote h1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 700px;
+}
+
+.hanako-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;    
+}
+
+#hanako{
+    width:300px;
+    margin-left:250px;
+    margin-top: -170px;
+}
+
+.hanako-description{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Kou-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center; 
+}
+
+.kou-quote{
+   font-size: 20px;
+    margin-top: 40px;
+    margin-right: 950px; 
+}
+
+.kou-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;   
+}
+
+#kou{
+    width: 70%;
+    margin-top: -550px;
+    margin-right: 700px; 
+}
+
+.kou-description{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Sousuke-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center;  
+}
+
+.sou-quote{
+    font-size: 10px;
+    margin-top: 40px;
+    margin-left: 1000px;
+}
+
+.sou-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px; 
+}
+
+#sou{
+    width:300px;
+    margin-left:250px;
+    margin-top: -300px;
+}
+
+.sou-description{
+     margin-top: 30px;
+    font-size: 20px;
+}
+
+.aoi-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center; 
+}
+
+.aoi-quote{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 950px; 
+}
+
+.aoi-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;   
+}
+
+#aoi{
+    width: 70%;
+    margin-top: -550px;
+    margin-right: 700px; 
+}
+
+.aoi-description{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.teru-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center;  
+}
+
+.teru-quote{
+    font-size: 10px;
+    margin-top: 40px;
+    margin-left: 1000px;
+}
+
+.teru-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px; 
+}
+
+#teru{
+    width:300px;
+    margin-left:250px;
+    margin-top: -120px;
+}
+
+.teru-description{
+     margin-top: 30px;
+    font-size: 20px;
+}
+
+.container13{
+    margin-bottom: 150px;
+}
+
+.akane-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center; 
+}
+
+.akane-quote{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 950px; 
+}
+
+.akane-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;   
+}
+
+#akane{
+    width: 70%;
+    margin-top: -500px;
+    margin-right: 700px; 
+}
+
+.akane-description{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+  .mokke-description,
+  .Nene-description,
+  .hanako-description,
+  .kou-description,
+  .sou-description,
+  .aoi-description,
+  .teru-description,
+  .akane-description {
+    text-align: center;
+    margin-right: 20px; 
+    margin-left: 20px; 
+  }
+
+  /*The Seven Mysteries Page*/
+
+.world-word{
+    font-size: 50px;
+}
+
+.myst1-rumor{
+    font-size: 17px;
+}
+
+.myst2-rumor{
+    font-size: 17px;
+}
+
+.myst3-rumor{
+    font-size: 17px;
+}
+
+.myst4-rumor{
+    font-size: 17px;
+}
+
+.myst4-header h2{
+    font-size: 47px;
+    text-align: center;
+}
+
+.myst5-rumor{
+    font-size: 17px;
+}
+
+.myst5-header h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+.myst6-rumor{
+    text-align: center;
+    font-size: 13px;
+}
+
+.myst7-rumor{
+    font-size: 14px;
+}
+
+.myst7-header h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Gallery Page*/
+.gallery-word {
+        font-size: 60px; 
+    }
+
+    .gallery1,
+    .gallery2,
+    .gallery3,
+    .gallery4,
+    .gallery5,
+    .gallery6,
+    .gallery7,
+    .gallery8,
+    .gallery9,
+    .gallery10 {
+        margin-top: -5%; 
+    }
+
+    .image_row_1,
+    .image_row_2,
+    .image_row_3,
+    .image_row_4,
+    .image_row_5,
+    .image_row_6,
+    .image_row_7,
+    .image_row_8,
+    .image_row_9,
+    .image_row_10 {
+        flex-basis: 45%; 
+        max-width: calc(215% - 80px); 
+        margin: 5px; 
+    }
+
+}
+
 
 
 
